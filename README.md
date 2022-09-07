@@ -20,8 +20,12 @@ An access to the internet
 
 
 HTML- which was used to build the structure of the pages
+
+
 CSS- it was used to style the pages including the navigating bar from the header towards the middle section and the footer.
+
 JS- it was used to create functions of every page used in the project
+
 #License
 
 
