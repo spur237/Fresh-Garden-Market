@@ -1,0 +1,405 @@
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex; 
+    width: 100%;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    
+
+  }
+  .project{
+    background-color: #002E96;
+    display: inline-table;
+
+
+  }
+  #title{
+    font-style: oblique;
+    font-family: "Oleo Script";
+    color: rgb(227, 87, 143);
+    background-image: url(assets/images.jpeg)
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Poppins&family=Space+Grotesk&display=swap');.ip{
+    justify-content: space-between;  
+    display: flex; 
+    flex: none;
+    flex-direction: row; 
+  } 
+  #field{
+    width:600px;
+  }
+  .icon {
+    padding: 10px;
+    background: crimson;
+    color: white;
+    min-width: 70px;
+    text-align: center;
+  }
+  .likes-section p{
+margin-left: 5px;
+  }
+  .input-field {
+    width:400px;
+    padding: 7px;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border: 2px solid rgb(255, 188, 30);
+  }
+  
+  .btn {
+    background-color: rgb(30, 255, 143);
+    color: rgb(23, 18, 18);
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  .twelve{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
+.topic p{
+  margin-left: 250px;
+  font-size: 30px;
+}
+.payments {
+  float: right;
+  margin-bottom: 200px;
+}
+.payments h2{
+  margin-left: 200px;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+  
+   font-size: 40px;
+   font-weight: 300px;
+   color:  rgba(0, 0, 255, 0.967);
+   margin-left: 200px;
+}
+.house p{
+    margin-left: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 10px;
+    font-size: 30px;
+    color: cr;
+    background-origin: padding-box;
+}
+.house:hover {
+    font-size: 32px;
+}
+.icons {
+    margin-left: 259px;
+    
+}
+.image {
+    margin-left: 50px;
+}
+.likes-section {
+  /* display: flex; */
+
+  flex: 20%;
+  padding-bottom: 100px;
+  margin-left:0px;
+  align-items: center;
+  padding: 0 10px;
+  background-color: #002E96;
+  display: -ms-flexbox; /* IE10 */
+  width: 100%;
+  margin-bottom: 15px;
+  
+}
+
+.likes {
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+/* /* .poject {
+ background-color: #002E96;
+  margin-bottom: 1px; 
+} */
+.like-button {
+  color: red;
+  font-size: 100px;
+  border: none;
+  background: none;
+  transition: color 300ms;
+  cursor: pointer;
+  margin-left: 200px;
+  border: 10px;
+  margin-top: 20px;
+}
+
+.like-button:hover {
+  color: rgb(241, 71, 19);
+}
+
+.like-button:active {
+  color: rgb(169, 253, 124);
+}
+
+.like-button:focus {
+  outline: none;
+}
+#display{
+  float:left;
+
+}
+ .comments {
+  
+  margin-right: 15px;
+  padding-left: 10px; 
+  font-size: 20px;
+}
+ #see {
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* float: right; */
+  margin-bottom: 100;
+  background-color: chartreuse;
+  /*  margin-right: 500px; */   
+ }
+   body{
+    background-color:aqua
+   }
+
+.centered {
+  position: absolute; 
+  margin-left: 200px;
+  top: 30%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  color: red; 
+  font-size: 50px;
+  text-decoration-thickness: 70px;
+  text-shadow: 0 0 3px #FF0000;
+}
+
+.comments li {
+  margin: 2px 0;
+  margin-right: 200px;
+  /* letter-spacing: 0.2px; */
+  color: white;
+  
+}
+.section {
+  display: flex; 
+  margin-inline-end:300px;
+  justify-content: space-evenly;
+  background-color: #002E96;
+}
+.comment-form {
+  width: 20%;
+  border-top: 10px solid #00000020;
+  padding: 10px;
+  margin-top: 10px;
+  
+  margin-left: 30px;
+}
+#comment {
+  width: 300px;
+  background-color: rgba(115, 16, 115, 0.132);
+}
+
+.comment-input {
+  width: 83%;
+  border-style: dashed; 
+   font-size: 20px;
+  border-color:red;
+  
+}
+
+.comment-input:focus {
+  outline: none;
+}
+
+.comment-button {
+  border-block-end-style: groove;
+  font-size: 30px;
+  font-weight: 1600;
+  background-color: rgb(26, 128, 0);
+  color: darkturquoise;
+  cursor: pointer; 
+  transition: color 300ms;
+}
+
+.comment-button:hover {
+  color: rgb(37, 68, 245);
+}
+
+.comment-button:active {
+  color: rgb(127, 146, 250);
+  
+}
+
+.comment-button:focus {
+  outline: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Poppins&family=Space+Grotesk&display=swap');
+
+
+
+#pie{
+    font-size: 59px;
+   text-align: center;
+   margin-top: 160px;
+   color: #002E96;
+
+}
+
+.about{
+    margin-top: 150px;
+}
+
+.people p{
+    font-size: 23px;
+    padding-left:200px;
+    line-height: 50px;
+    margin-top:50px;
+}
+.body{
+    background-color: whitesmoke;
+    font-family: "Poppins";
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    left: -63px;
+    top: 10px;
+    background:#f5f5f5;
+    box-shadow: 0px 4px 4px rgba(0,0, 0, 0.25);
+}
+.logo{
+    padding-left: 200px;
+    color: #002E96;
+    display: flex;
+    align-items: center;
+}
+/* .logo h2{
+    font-size: 40px;
+    font-family: "Oleo Script";
+    font-weight: lighter;
+} */
+.nav-links{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.nav-links a{
+    color:#002E96;
+    text-decoration: none;
+    font-size: 20px;
+}
+.id{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 340px;
+    
+    
+}
+.oly{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 320px;
+  
+   
+    
+    
+}
+.oly img{
+    height: 270px;
+    width: 25%;
+    align-items: center;
+    padding: 10px;
+    border-radius: 7px;
+
+}
+.id{
+   height: 500px;
+   align-items: center;
+}
+.id img{
+    height: 270px;
+    width: 25%;
+    align-items: center;
+}
+.id p{
+    font-size: 30px;
+    color: #002E96;
+
+}
+.oly{
+    align-items: center;
+}
+.oly p{
+    font-size: 30px;
+    color: #002E96;
+}
+.footer{
+    display: flex;
+    background-color: #002E96;
+    color: white;
+    justify-content: space-around;
+    margin-top: 150px;
+    height: 400px;
+    align-items: center;
+
+}
+.why h3{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 20px;
+
+}
+.why p{
+    text-align: center;
+
+}
+.location{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    
+
+}
+h2:hover {background-color: blue;}
+p:hover {background-color: rgb(162, 185, 185);}
+h1:hover{
+    background-color: coral;
+}
+/* .nine p {
+  font-size: 20px;
+  font-weight: 50px;
+} */
+.number{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+.email{
+    /* display: flex; */
+    gap: 20px;
+    padding-top: 20px;
+}
+.follow i{
+    padding-top: 20px; 
+    margin-right: 20px;
+}
+.follow p{
+    font-weight: bold;
+    font-size: 17px;
+
+}
+.icons {
+    display: flex;
+    gap:20px;
+}
