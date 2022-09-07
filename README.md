@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
  1.Fresh gadrden market-website
  2. By Samuel Nzioka
  3 Table of content
@@ -27,11 +27,3 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 #link to github pages
 https://github.com/spur237/Fresh-Garden-Market.git
 Samuel Nzioka
-=======
-# Dairy-Bussiness
-This project is about a design of a dairy production
-#used tecnology
-html-i used html to do my project
-css-i also used css to style my project
-js-
->>>>>>> 57c7a29c5f854efc0ec8782c591ea3120aa73c8e
