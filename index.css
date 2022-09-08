@@ -31,13 +31,15 @@
   }
   .icon {
     padding: 10px;
-    background: rgb(47, 220, 20);
-    color: white;
+    background: rgb(103, 20, 220);
+    color: rgb(5, 5, 5);
     min-width: 70px;
     text-align: center;
   }
   .likes-section p{
-margin-left: 5px;
+margin-left: 5px; 
+align-items: flex-end;
+
   }
   .input-field {
     width:400px;
